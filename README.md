@@ -49,9 +49,9 @@ job_id,seller_id,arrival_time,estimated_runtime,priority,job_type
 
 ```csv
 job_id,seller_id,arrival_time,estimated_runtime,priority,job_type
-1,S001,0,5,2,Electronics
-2,S002,1,3,1,Fashion
-3,S003,2,7,3,Books
+1,A,0,5,2,Electronics
+2,B,1,3,1,Fashion
+3,C,2,7,3,Books
 ```
 
 ---
