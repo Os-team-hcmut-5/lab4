@@ -72,13 +72,14 @@ gcc -Wall -pthread -o scheduler scheduler.c
 ./scheduler <csv_file> <policy> <workers>
 ```
 
-## Syntaxn Example
+## Syntax Example
 
 ```bash
 ./scheduler wa.csv fifo 4
 ```
 
 ---
+
 
 # Scheduling Policies
 
@@ -89,6 +90,18 @@ gcc -Wall -pthread -o scheduler scheduler.c
 | `priority` | Higher priority job first (smaller number = higher priority) |
 
 ---
+
+# Bonus tasks
+## Aging priority Scheduling
+Strict Priority Scheduling often suffers from the **Starvation** problem, where low-priority jobs are indefinitely deferred if a continuous stream of high-priority jobs arrives. To mitigate this, we implemented an **Aging Priority Scheduling** algorithm.
+```bash
+cd bonus
+gcc -Wall -pthread -o aging_scheduler aging_priority_scheduling.c
+```
+# Run
+```bash
+./aging_scheduler ../<csv_file> priority <number of workers>
+```
 
 # Requirements
 
