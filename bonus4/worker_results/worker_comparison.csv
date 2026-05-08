@@ -1,0 +1,10 @@
+policy,workers,total_jobs,total_simulation_time,average_waiting_time,average_turnaround_time,throughput,worker_utilization,starvation_risk_jobs
+FIFO,2,100,841,343.33,359.97,0.119,98.93,95
+SJF,2,100,841,249.17,265.81,0.119,98.93,72
+Priority,2,100,843,344.52,361.17,0.119,98.70,86
+FIFO,4,100,429,142.70,159.34,0.233,96.97,85
+SJF,4,100,425,103.24,119.88,0.235,97.88,58
+Priority,4,100,430,143.81,160.45,0.233,96.74,78
+FIFO,8,100,224,43.08,59.72,0.446,92.86,58
+SJF,8,100,223,29.49,46.13,0.448,93.27,31
+Priority,8,100,224,42.43,59.07,0.446,92.86,44

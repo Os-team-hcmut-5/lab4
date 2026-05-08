@@ -1,0 +1,608 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="2540" viewBox="0 0 1500 2540">
+<rect width="100%" height="100%" fill="#f7f8fa"/>
+<text x="35" y="38" font-family="Arial" font-size="26" font-weight="700" fill="#1f2933">Scheduler comparison: jobs_100, jobs_1000, jobs_10000</text>
+<text x="35" y="64" font-family="Arial" font-size="14" fill="#52606d">Analytical simulation in compare_workers.c, workers = 2, 4, 8</text>
+<circle cx="980" cy="44" r="6" fill="#2f6f9f"/>
+<text x="992" y="49" font-family="Arial" font-size="14" fill="#323f4b">FIFO</text>
+<circle cx="1115" cy="44" r="6" fill="#4f8f5f"/>
+<text x="1127" y="49" font-family="Arial" font-size="14" fill="#323f4b">SJF</text>
+<circle cx="1250" cy="44" r="6" fill="#c4663a"/>
+<text x="1262" y="49" font-family="Arial" font-size="14" fill="#323f4b">Priority</text>
+<text x="35" y="118" font-family="Arial" font-size="24" font-weight="700" fill="#1f2933">jobs_100</text>
+<rect x="35" y="145" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="173" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Total simulation time</text>
+<text x="57" y="192" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="95.0" y1="395.0" x2="455.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="210.0" x2="95.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="210.0" x2="95.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="95.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="210.0" x2="215.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="215.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="210.0" x2="455.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="455.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="210.0" x2="455.0" y2="210.0" stroke="#eef2f7"/>
+<text x="87.0" y="214.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">909.4</text>
+<line x1="95.0" y1="256.2" x2="455.0" y2="256.2" stroke="#eef2f7"/>
+<text x="87.0" y="260.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">733.3</text>
+<line x1="95.0" y1="302.5" x2="455.0" y2="302.5" stroke="#eef2f7"/>
+<text x="87.0" y="306.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">557.3</text>
+<line x1="95.0" y1="348.8" x2="455.0" y2="348.8" stroke="#eef2f7"/>
+<text x="87.0" y="352.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">381.2</text>
+<line x1="95.0" y1="395.0" x2="455.0" y2="395.0" stroke="#eef2f7"/>
+<text x="87.0" y="399.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">205.2</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,229.0 215.0,335.9 455.0,390.1 "/>
+<circle cx="95.0" cy="229.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="335.9" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="390.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,228.0 215.0,337.2 455.0,390.3 "/>
+<circle cx="95.0" cy="228.0" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="337.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="390.3" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,227.7 215.0,335.9 455.0,390.1 "/>
+<circle cx="95.0" cy="227.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="335.9" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="390.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="145" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="173" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average waiting time</text>
+<text x="537" y="192" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="575.0" y1="395.0" x2="935.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="210.0" x2="575.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="210.0" x2="575.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="575.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="210.0" x2="695.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="695.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="210.0" x2="935.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="935.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="210.0" x2="935.0" y2="210.0" stroke="#eef2f7"/>
+<text x="567.0" y="214.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">372.0</text>
+<line x1="575.0" y1="256.2" x2="935.0" y2="256.2" stroke="#eef2f7"/>
+<text x="567.0" y="260.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">285.8</text>
+<line x1="575.0" y1="302.5" x2="935.0" y2="302.5" stroke="#eef2f7"/>
+<text x="567.0" y="306.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">199.6</text>
+<line x1="575.0" y1="348.8" x2="935.0" y2="348.8" stroke="#eef2f7"/>
+<text x="567.0" y="352.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">113.4</text>
+<line x1="575.0" y1="395.0" x2="935.0" y2="395.0" stroke="#eef2f7"/>
+<text x="567.0" y="399.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">27.1</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,225.4 695.0,333.0 935.0,386.5 "/>
+<circle cx="575.0" cy="225.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="333.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="386.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,275.9 695.0,354.2 935.0,393.7 "/>
+<circle cx="575.0" cy="275.9" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="354.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="393.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,224.8 695.0,332.4 935.0,386.8 "/>
+<circle cx="575.0" cy="224.8" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="332.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="386.8" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="145" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="173" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average turnaround time</text>
+<text x="1017" y="192" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="395.0" x2="1415.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="210.0" x2="1055.0" y2="395.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="210.0" x2="1055.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="210.0" x2="1175.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="210.0" x2="1415.0" y2="395.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="415.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="210.0" x2="1415.0" y2="210.0" stroke="#eef2f7"/>
+<text x="1047.0" y="214.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">390.0</text>
+<line x1="1055.0" y1="256.2" x2="1415.0" y2="256.2" stroke="#eef2f7"/>
+<text x="1047.0" y="260.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">303.1</text>
+<line x1="1055.0" y1="302.5" x2="1415.0" y2="302.5" stroke="#eef2f7"/>
+<text x="1047.0" y="306.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">216.2</text>
+<line x1="1055.0" y1="348.8" x2="1415.0" y2="348.8" stroke="#eef2f7"/>
+<text x="1047.0" y="352.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">129.3</text>
+<line x1="1055.0" y1="395.0" x2="1415.0" y2="395.0" stroke="#eef2f7"/>
+<text x="1047.0" y="399.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">42.4</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,226.0 1175.0,332.7 1415.0,385.8 "/>
+<circle cx="1055.0" cy="226.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="332.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="385.8" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,276.1 1175.0,353.8 1415.0,393.0 "/>
+<circle cx="1055.0" cy="276.1" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="353.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="393.0" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,225.4 1175.0,332.2 1415.0,386.1 "/>
+<circle cx="1055.0" cy="225.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="332.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="386.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="35" y="490" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="518" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Throughput</text>
+<text x="57" y="537" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="95.0" y1="740.0" x2="455.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="555.0" x2="95.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="555.0" x2="95.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="95.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="555.0" x2="215.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="215.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="555.0" x2="455.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="455.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="555.0" x2="455.0" y2="555.0" stroke="#eef2f7"/>
+<text x="87.0" y="559.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.5</text>
+<line x1="95.0" y1="601.2" x2="455.0" y2="601.2" stroke="#eef2f7"/>
+<text x="87.0" y="605.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.4</text>
+<line x1="95.0" y1="647.5" x2="455.0" y2="647.5" stroke="#eef2f7"/>
+<text x="87.0" y="651.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.3</text>
+<line x1="95.0" y1="693.8" x2="455.0" y2="693.8" stroke="#eef2f7"/>
+<text x="87.0" y="697.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.2</text>
+<line x1="95.0" y1="740.0" x2="455.0" y2="740.0" stroke="#eef2f7"/>
+<text x="87.0" y="744.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.1</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,735.0 215.0,679.2 455.0,573.7 "/>
+<circle cx="95.0" cy="735.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="679.2" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="573.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,735.2 215.0,677.8 455.0,572.7 "/>
+<circle cx="95.0" cy="735.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="677.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="572.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,735.3 215.0,679.2 455.0,573.7 "/>
+<circle cx="95.0" cy="735.3" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="679.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="573.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="490" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="518" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Worker utilization (%)</text>
+<text x="537" y="537" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="575.0" y1="740.0" x2="935.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="555.0" x2="575.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="555.0" x2="575.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="575.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="555.0" x2="695.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="695.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="555.0" x2="935.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="935.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="555.0" x2="935.0" y2="555.0" stroke="#eef2f7"/>
+<text x="567.0" y="559.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">107.4</text>
+<line x1="575.0" y1="601.2" x2="935.0" y2="601.2" stroke="#eef2f7"/>
+<text x="567.0" y="605.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">101.9</text>
+<line x1="575.0" y1="647.5" x2="935.0" y2="647.5" stroke="#eef2f7"/>
+<text x="567.0" y="651.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">96.4</text>
+<line x1="575.0" y1="693.8" x2="935.0" y2="693.8" stroke="#eef2f7"/>
+<text x="567.0" y="697.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">90.9</text>
+<line x1="575.0" y1="740.0" x2="935.0" y2="740.0" stroke="#eef2f7"/>
+<text x="567.0" y="744.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">85.4</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,622.1 695.0,644.5 935.0,677.3 "/>
+<circle cx="575.0" cy="622.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="644.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="677.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,626.1 695.0,634.9 935.0,673.8 "/>
+<circle cx="575.0" cy="626.1" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="634.9" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="673.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,627.1 695.0,644.5 935.0,677.3 "/>
+<circle cx="575.0" cy="627.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="644.5" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="677.3" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="490" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="518" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Starvation-risk jobs</text>
+<text x="1017" y="537" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="740.0" x2="1415.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="555.0" x2="1055.0" y2="740.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="555.0" x2="1055.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="555.0" x2="1175.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="555.0" x2="1415.0" y2="740.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="760.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="555.0" x2="1415.0" y2="555.0" stroke="#eef2f7"/>
+<text x="1047.0" y="559.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">102.6</text>
+<line x1="1055.0" y1="601.2" x2="1415.0" y2="601.2" stroke="#eef2f7"/>
+<text x="1047.0" y="605.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">84.1</text>
+<line x1="1055.0" y1="647.5" x2="1415.0" y2="647.5" stroke="#eef2f7"/>
+<text x="1047.0" y="651.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">65.6</text>
+<line x1="1055.0" y1="693.8" x2="1415.0" y2="693.8" stroke="#eef2f7"/>
+<text x="1047.0" y="697.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">47.0</text>
+<line x1="1055.0" y1="740.0" x2="1415.0" y2="740.0" stroke="#eef2f7"/>
+<text x="1047.0" y="744.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">28.5</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,574.0 1175.0,599.0 1415.0,668.9 "/>
+<circle cx="1055.0" cy="574.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="599.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="668.9" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,631.4 1175.0,666.4 1415.0,733.8 "/>
+<circle cx="1055.0" cy="631.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="666.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="733.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,596.5 1175.0,616.4 1415.0,701.3 "/>
+<circle cx="1055.0" cy="596.5" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="616.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="701.3" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="35" y="938" font-family="Arial" font-size="24" font-weight="700" fill="#1f2933">jobs_1000</text>
+<rect x="35" y="965" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="993" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Total simulation time</text>
+<text x="57" y="1012" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="95.0" y1="1215.0" x2="455.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1030.0" x2="95.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1030.0" x2="95.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="95.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="1030.0" x2="215.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="215.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="1030.0" x2="455.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="455.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="1030.0" x2="455.0" y2="1030.0" stroke="#eef2f7"/>
+<text x="87.0" y="1034.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">8424.0</text>
+<line x1="95.0" y1="1076.2" x2="455.0" y2="1076.2" stroke="#eef2f7"/>
+<text x="87.0" y="1080.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">6767.0</text>
+<line x1="95.0" y1="1122.5" x2="455.0" y2="1122.5" stroke="#eef2f7"/>
+<text x="87.0" y="1126.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">5109.9</text>
+<line x1="95.0" y1="1168.8" x2="455.0" y2="1168.8" stroke="#eef2f7"/>
+<text x="87.0" y="1172.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">3452.9</text>
+<line x1="95.0" y1="1215.0" x2="455.0" y2="1215.0" stroke="#eef2f7"/>
+<text x="87.0" y="1219.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">1795.8</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,1047.8 215.0,1156.3 455.0,1210.6 "/>
+<circle cx="95.0" cy="1047.8" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1156.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1210.6" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,1047.5 215.0,1156.2 455.0,1210.4 "/>
+<circle cx="95.0" cy="1047.5" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1156.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1210.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,1047.4 215.0,1156.1 455.0,1210.4 "/>
+<circle cx="95.0" cy="1047.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1156.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1210.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="965" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="993" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average waiting time</text>
+<text x="537" y="1012" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="575.0" y1="1215.0" x2="935.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1030.0" x2="575.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1030.0" x2="575.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="575.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="1030.0" x2="695.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="695.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="1030.0" x2="935.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="935.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="1030.0" x2="935.0" y2="1030.0" stroke="#eef2f7"/>
+<text x="567.0" y="1034.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">4154.9</text>
+<line x1="575.0" y1="1076.2" x2="935.0" y2="1076.2" stroke="#eef2f7"/>
+<text x="567.0" y="1080.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">3258.6</text>
+<line x1="575.0" y1="1122.5" x2="935.0" y2="1122.5" stroke="#eef2f7"/>
+<text x="567.0" y="1126.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">2362.4</text>
+<line x1="575.0" y1="1168.8" x2="935.0" y2="1168.8" stroke="#eef2f7"/>
+<text x="567.0" y="1172.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">1466.1</text>
+<line x1="575.0" y1="1215.0" x2="935.0" y2="1215.0" stroke="#eef2f7"/>
+<text x="567.0" y="1219.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">569.8</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,1046.7 695.0,1147.1 935.0,1197.3 "/>
+<circle cx="575.0" cy="1046.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1147.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1197.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,1108.7 695.0,1177.9 935.0,1212.4 "/>
+<circle cx="575.0" cy="1108.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1177.9" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1212.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,1045.9 695.0,1146.7 935.0,1197.0 "/>
+<circle cx="575.0" cy="1045.9" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1146.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1197.0" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="965" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="993" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average turnaround time</text>
+<text x="1017" y="1012" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="1215.0" x2="1415.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1030.0" x2="1055.0" y2="1215.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1030.0" x2="1055.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="1030.0" x2="1175.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="1030.0" x2="1415.0" y2="1215.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="1235.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="1030.0" x2="1415.0" y2="1030.0" stroke="#eef2f7"/>
+<text x="1047.0" y="1034.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">4171.7</text>
+<line x1="1055.0" y1="1076.2" x2="1415.0" y2="1076.2" stroke="#eef2f7"/>
+<text x="1047.0" y="1080.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">3274.8</text>
+<line x1="1055.0" y1="1122.5" x2="1415.0" y2="1122.5" stroke="#eef2f7"/>
+<text x="1047.0" y="1126.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">2377.9</text>
+<line x1="1055.0" y1="1168.8" x2="1415.0" y2="1168.8" stroke="#eef2f7"/>
+<text x="1047.0" y="1172.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">1481.1</text>
+<line x1="1055.0" y1="1215.0" x2="1415.0" y2="1215.0" stroke="#eef2f7"/>
+<text x="1047.0" y="1219.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">584.2</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,1046.7 1175.0,1147.1 1415.0,1197.3 "/>
+<circle cx="1055.0" cy="1046.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1147.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1197.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,1108.7 1175.0,1177.9 1415.0,1212.4 "/>
+<circle cx="1055.0" cy="1108.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1177.9" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1212.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,1045.9 1175.0,1146.7 1415.0,1197.0 "/>
+<circle cx="1055.0" cy="1045.9" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1146.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1197.0" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="35" y="1310" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="1338" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Throughput</text>
+<text x="57" y="1357" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="95.0" y1="1560.0" x2="455.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1375.0" x2="95.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1375.0" x2="95.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="95.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="1375.0" x2="215.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="215.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="1375.0" x2="455.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="455.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="1375.0" x2="455.0" y2="1375.0" stroke="#eef2f7"/>
+<text x="87.0" y="1379.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.6</text>
+<line x1="95.0" y1="1421.2" x2="455.0" y2="1421.2" stroke="#eef2f7"/>
+<text x="87.0" y="1425.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.4</text>
+<line x1="95.0" y1="1467.5" x2="455.0" y2="1467.5" stroke="#eef2f7"/>
+<text x="87.0" y="1471.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.3</text>
+<line x1="95.0" y1="1513.8" x2="455.0" y2="1513.8" stroke="#eef2f7"/>
+<text x="87.0" y="1517.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.2</text>
+<line x1="95.0" y1="1560.0" x2="455.0" y2="1560.0" stroke="#eef2f7"/>
+<text x="87.0" y="1564.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.1</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,1555.6 215.0,1501.1 455.0,1392.4 "/>
+<circle cx="95.0" cy="1555.6" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1501.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1392.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,1555.6 215.0,1501.3 455.0,1393.2 "/>
+<circle cx="95.0" cy="1555.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1501.3" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1393.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,1555.6 215.0,1501.4 455.0,1393.4 "/>
+<circle cx="95.0" cy="1555.6" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1501.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="1393.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="1310" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="1338" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Worker utilization (%)</text>
+<text x="537" y="1357" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="575.0" y1="1560.0" x2="935.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1375.0" x2="575.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1375.0" x2="575.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="575.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="1375.0" x2="695.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="695.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="1375.0" x2="935.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="935.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="1375.0" x2="935.0" y2="1375.0" stroke="#eef2f7"/>
+<text x="567.0" y="1379.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">108.0</text>
+<line x1="575.0" y1="1421.2" x2="935.0" y2="1421.2" stroke="#eef2f7"/>
+<text x="567.0" y="1425.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">103.8</text>
+<line x1="575.0" y1="1467.5" x2="935.0" y2="1467.5" stroke="#eef2f7"/>
+<text x="567.0" y="1471.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">99.7</text>
+<line x1="575.0" y1="1513.8" x2="935.0" y2="1513.8" stroke="#eef2f7"/>
+<text x="567.0" y="1517.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">95.5</text>
+<line x1="575.0" y1="1560.0" x2="935.0" y2="1560.0" stroke="#eef2f7"/>
+<text x="567.0" y="1564.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">91.3</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,1463.9 695.0,1465.3 935.0,1466.7 "/>
+<circle cx="575.0" cy="1463.9" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1465.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1466.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,1465.0 695.0,1466.7 935.0,1470.7 "/>
+<circle cx="575.0" cy="1465.0" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1466.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1470.7" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,1465.6 695.0,1467.5 935.0,1471.8 "/>
+<circle cx="575.0" cy="1465.6" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1467.5" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="1471.8" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="1310" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="1338" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Starvation-risk jobs</text>
+<text x="1017" y="1357" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="1560.0" x2="1415.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1375.0" x2="1055.0" y2="1560.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1375.0" x2="1055.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="1375.0" x2="1175.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="1375.0" x2="1415.0" y2="1560.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="1580.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="1375.0" x2="1415.0" y2="1375.0" stroke="#eef2f7"/>
+<text x="1047.0" y="1379.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">1074.6</text>
+<line x1="1055.0" y1="1421.2" x2="1415.0" y2="1421.2" stroke="#eef2f7"/>
+<text x="1047.0" y="1425.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">990.4</text>
+<line x1="1055.0" y1="1467.5" x2="1415.0" y2="1467.5" stroke="#eef2f7"/>
+<text x="1047.0" y="1471.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">906.2</text>
+<line x1="1055.0" y1="1513.8" x2="1415.0" y2="1513.8" stroke="#eef2f7"/>
+<text x="1047.0" y="1517.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">822.0</text>
+<line x1="1055.0" y1="1560.0" x2="1415.0" y2="1560.0" stroke="#eef2f7"/>
+<text x="1047.0" y="1564.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">737.8</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,1418.7 1175.0,1421.5 1415.0,1426.4 "/>
+<circle cx="1055.0" cy="1418.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1421.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1426.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,1463.2 1175.0,1486.8 1415.0,1524.8 "/>
+<circle cx="1055.0" cy="1463.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1486.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1524.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,1419.3 1175.0,1421.5 1415.0,1430.8 "/>
+<circle cx="1055.0" cy="1419.3" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1421.5" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="1430.8" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<text x="35" y="1758" font-family="Arial" font-size="24" font-weight="700" fill="#1f2933">jobs_10000</text>
+<rect x="35" y="1785" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="1813" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Total simulation time</text>
+<text x="57" y="1832" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="95.0" y1="2035.0" x2="455.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1850.0" x2="95.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="1850.0" x2="95.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="95.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="1850.0" x2="215.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="215.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="1850.0" x2="455.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="455.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="1850.0" x2="455.0" y2="1850.0" stroke="#eef2f7"/>
+<text x="87.0" y="1854.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">82912.7</text>
+<line x1="95.0" y1="1896.2" x2="455.0" y2="1896.2" stroke="#eef2f7"/>
+<text x="87.0" y="1900.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">66601.4</text>
+<line x1="95.0" y1="1942.5" x2="455.0" y2="1942.5" stroke="#eef2f7"/>
+<text x="87.0" y="1946.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">50290.2</text>
+<line x1="95.0" y1="1988.8" x2="455.0" y2="1988.8" stroke="#eef2f7"/>
+<text x="87.0" y="1992.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">33978.9</text>
+<line x1="95.0" y1="2035.0" x2="455.0" y2="2035.0" stroke="#eef2f7"/>
+<text x="87.0" y="2039.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">17667.7</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,1867.4 215.0,1976.2 455.0,2030.6 "/>
+<circle cx="95.0" cy="1867.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1976.2" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2030.6" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,1867.4 215.0,1976.2 455.0,2030.6 "/>
+<circle cx="95.0" cy="1867.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1976.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2030.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,1867.4 215.0,1976.2 455.0,2030.6 "/>
+<circle cx="95.0" cy="1867.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="1976.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2030.6" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="1785" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="1813" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average waiting time</text>
+<text x="537" y="1832" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="575.0" y1="2035.0" x2="935.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1850.0" x2="575.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="1850.0" x2="575.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="575.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="1850.0" x2="695.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="695.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="1850.0" x2="935.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="935.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="1850.0" x2="935.0" y2="1850.0" stroke="#eef2f7"/>
+<text x="567.0" y="1854.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">41316.7</text>
+<line x1="575.0" y1="1896.2" x2="935.0" y2="1896.2" stroke="#eef2f7"/>
+<text x="567.0" y="1900.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">32424.4</text>
+<line x1="575.0" y1="1942.5" x2="935.0" y2="1942.5" stroke="#eef2f7"/>
+<text x="567.0" y="1946.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">23532.2</text>
+<line x1="575.0" y1="1988.8" x2="935.0" y2="1988.8" stroke="#eef2f7"/>
+<text x="567.0" y="1992.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">14640.0</text>
+<line x1="575.0" y1="2035.0" x2="935.0" y2="2035.0" stroke="#eef2f7"/>
+<text x="567.0" y="2039.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">5747.8</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,1866.7 695.0,1966.5 935.0,2016.4 "/>
+<circle cx="575.0" cy="1866.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1966.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2016.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,1931.1 695.0,1998.6 935.0,2032.4 "/>
+<circle cx="575.0" cy="1931.1" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1998.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2032.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,1865.9 695.0,1966.1 935.0,2016.2 "/>
+<circle cx="575.0" cy="1865.9" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="1966.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2016.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="1785" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="1813" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Average turnaround time</text>
+<text x="1017" y="1832" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="2035.0" x2="1415.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1850.0" x2="1055.0" y2="2035.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="1850.0" x2="1055.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="1850.0" x2="1175.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="1850.0" x2="1415.0" y2="2035.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="2055.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="1850.0" x2="1415.0" y2="1850.0" stroke="#eef2f7"/>
+<text x="1047.0" y="1854.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">41333.2</text>
+<line x1="1055.0" y1="1896.2" x2="1415.0" y2="1896.2" stroke="#eef2f7"/>
+<text x="1047.0" y="1900.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">32440.4</text>
+<line x1="1055.0" y1="1942.5" x2="1415.0" y2="1942.5" stroke="#eef2f7"/>
+<text x="1047.0" y="1946.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">23547.6</text>
+<line x1="1055.0" y1="1988.8" x2="1415.0" y2="1988.8" stroke="#eef2f7"/>
+<text x="1047.0" y="1992.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">14654.7</text>
+<line x1="1055.0" y1="2035.0" x2="1415.0" y2="2035.0" stroke="#eef2f7"/>
+<text x="1047.0" y="2039.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">5761.9</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,1866.7 1175.0,1966.5 1415.0,2016.4 "/>
+<circle cx="1055.0" cy="1866.7" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1966.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2016.4" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,1931.1 1175.0,1998.6 1415.0,2032.4 "/>
+<circle cx="1055.0" cy="1931.1" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1998.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2032.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,1865.9 1175.0,1966.1 1415.0,2016.2 "/>
+<circle cx="1055.0" cy="1865.9" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="1966.1" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2016.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="35" y="2130" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="57" y="2158" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Throughput</text>
+<text x="57" y="2177" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="95.0" y1="2380.0" x2="455.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="2195.0" x2="95.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="95.0" y1="2195.0" x2="95.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="95.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="215.0" y1="2195.0" x2="215.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="215.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="455.0" y1="2195.0" x2="455.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="455.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="95.0" y1="2195.0" x2="455.0" y2="2195.0" stroke="#eef2f7"/>
+<text x="87.0" y="2199.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.6</text>
+<line x1="95.0" y1="2241.2" x2="455.0" y2="2241.2" stroke="#eef2f7"/>
+<text x="87.0" y="2245.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.5</text>
+<line x1="95.0" y1="2287.5" x2="455.0" y2="2287.5" stroke="#eef2f7"/>
+<text x="87.0" y="2291.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.3</text>
+<line x1="95.0" y1="2333.8" x2="455.0" y2="2333.8" stroke="#eef2f7"/>
+<text x="87.0" y="2337.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.2</text>
+<line x1="95.0" y1="2380.0" x2="455.0" y2="2380.0" stroke="#eef2f7"/>
+<text x="87.0" y="2384.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">0.1</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="95.0,2375.6 215.0,2321.2 455.0,2212.5 "/>
+<circle cx="95.0" cy="2375.6" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="2321.2" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2212.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="95.0,2375.6 215.0,2321.2 455.0,2212.4 "/>
+<circle cx="95.0" cy="2375.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="2321.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2212.4" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="95.0,2375.6 215.0,2321.2 455.0,2212.4 "/>
+<circle cx="95.0" cy="2375.6" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="215.0" cy="2321.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="455.0" cy="2212.4" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="515" y="2130" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="537" y="2158" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Worker utilization (%)</text>
+<text x="537" y="2177" font-family="Arial" font-size="12" fill="#7b8794">higher is better</text>
+<line x1="575.0" y1="2380.0" x2="935.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="2195.0" x2="575.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="575.0" y1="2195.0" x2="575.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="575.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="695.0" y1="2195.0" x2="695.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="695.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="935.0" y1="2195.0" x2="935.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="935.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="575.0" y1="2195.0" x2="935.0" y2="2195.0" stroke="#eef2f7"/>
+<text x="567.0" y="2199.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">108.0</text>
+<line x1="575.0" y1="2241.2" x2="935.0" y2="2241.2" stroke="#eef2f7"/>
+<text x="567.0" y="2245.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">104.0</text>
+<line x1="575.0" y1="2287.5" x2="935.0" y2="2287.5" stroke="#eef2f7"/>
+<text x="567.0" y="2291.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">100.0</text>
+<line x1="575.0" y1="2333.8" x2="935.0" y2="2333.8" stroke="#eef2f7"/>
+<text x="567.0" y="2337.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">95.9</text>
+<line x1="575.0" y1="2380.0" x2="935.0" y2="2380.0" stroke="#eef2f7"/>
+<text x="567.0" y="2384.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">91.9</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="575.0,2287.0 695.0,2287.3 935.0,2288.1 "/>
+<circle cx="575.0" cy="2287.0" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="2287.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2288.1" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="575.0,2287.0 695.0,2287.2 935.0,2287.8 "/>
+<circle cx="575.0" cy="2287.0" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="2287.2" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2287.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="575.0,2287.0 695.0,2287.2 935.0,2287.7 "/>
+<circle cx="575.0" cy="2287.0" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="695.0" cy="2287.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="935.0" cy="2287.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="995" y="2130" width="455" height="300" rx="8" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="1017" y="2158" font-family="Arial" font-size="16" font-weight="700" fill="#1f2933">Starvation-risk jobs</text>
+<text x="1017" y="2177" font-family="Arial" font-size="12" fill="#7b8794">lower is better</text>
+<line x1="1055.0" y1="2380.0" x2="1415.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="2195.0" x2="1055.0" y2="2380.0" stroke="#9fb3c8"/>
+<line x1="1055.0" y1="2195.0" x2="1055.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="1055.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">2</text>
+<line x1="1175.0" y1="2195.0" x2="1175.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="1175.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">4</text>
+<line x1="1415.0" y1="2195.0" x2="1415.0" y2="2380.0" stroke="#d9e2ec"/>
+<text x="1415.0" y="2400.0" font-family="Arial" font-size="12" text-anchor="middle" fill="#52606d">8</text>
+<line x1="1055.0" y1="2195.0" x2="1415.0" y2="2195.0" stroke="#eef2f7"/>
+<text x="1047.0" y="2199.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">10794.6</text>
+<line x1="1055.0" y1="2241.2" x2="1415.0" y2="2241.2" stroke="#eef2f7"/>
+<text x="1047.0" y="2245.2" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">10086.4</text>
+<line x1="1055.0" y1="2287.5" x2="1415.0" y2="2287.5" stroke="#eef2f7"/>
+<text x="1047.0" y="2291.5" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">9378.1</text>
+<line x1="1055.0" y1="2333.8" x2="1415.0" y2="2333.8" stroke="#eef2f7"/>
+<text x="1047.0" y="2337.8" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">8669.9</text>
+<line x1="1055.0" y1="2380.0" x2="1415.0" y2="2380.0" stroke="#eef2f7"/>
+<text x="1047.0" y="2384.0" font-family="Arial" font-size="11" text-anchor="end" fill="#52606d">7961.7</text>
+<polyline fill="none" stroke="#2f6f9f" stroke-width="3" points="1055.0,2247.3 1175.0,2247.5 1415.0,2248.3 "/>
+<circle cx="1055.0" cy="2247.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="2247.5" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2248.3" r="4.8" fill="#2f6f9f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#4f8f5f" stroke-width="3" points="1055.0,2289.6 1175.0,2311.9 1415.0,2334.8 "/>
+<circle cx="1055.0" cy="2289.6" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="2311.9" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2334.8" r="4.8" fill="#4f8f5f" stroke="#ffffff" stroke-width="1.5"/>
+<polyline fill="none" stroke="#c4663a" stroke-width="3" points="1055.0,2247.2 1175.0,2247.6 1415.0,2248.7 "/>
+<circle cx="1055.0" cy="2247.2" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1175.0" cy="2247.6" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="1415.0" cy="2248.7" r="4.8" fill="#c4663a" stroke="#ffffff" stroke-width="1.5"/>
+</svg>

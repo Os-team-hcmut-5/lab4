@@ -1,0 +1,648 @@
+Starting Mini Background Job Scheduler (FAST MODE x100)...
+Target Workers: 8 | Total Jobs: 100
+
+>>> RUNNING POLICY: FIFO <<<
+[time=  0] Worker 0 starts Job  58 seller=D  runtime= 6 priority=1
+[time=  1] Worker 1 starts Job  97 seller=F  runtime=21 priority=2
+[time=  3] Worker 2 starts Job  45 seller=A  runtime=26 priority=4
+[time=  3] Worker 3 starts Job  52 seller=B  runtime=27 priority=4
+[time=  4] Worker 7 starts Job  21 seller=G  runtime=14 priority=2
+[time=  4] Worker 4 starts Job  93 seller=C  runtime=20 priority=5
+[time=  4] Worker 5 starts Job  79 seller=D  runtime=21 priority=2
+[time=  4] Worker 6 starts Job  82 seller=A  runtime=11 priority=1
+[time=  6] Worker 0 finishes Job  58 (Tiến độ:   1/100)
+[time= 10] Worker 0 starts Job   1 seller=E  runtime=16 priority=4
+[time= 15] Worker 6 finishes Job  82 (Tiến độ:   2/100)
+[time= 15] Worker 6 starts Job  76 seller=E  runtime=11 priority=4
+[time= 18] Worker 7 finishes Job  21 (Tiến độ:   3/100)
+[time= 18] Worker 7 starts Job  67 seller=F  runtime= 6 priority=2
+[time= 22] Worker 1 finishes Job  97 (Tiến độ:   4/100)
+[time= 22] Worker 1 starts Job  14 seller=A  runtime=12 priority=3
+[time= 24] Worker 4 finishes Job  93 (Tiến độ:   5/100)
+[time= 24] Worker 4 starts Job  85 seller=B  runtime=15 priority=2
+[time= 24] Worker 7 finishes Job  67 (Tiến độ:   6/100)
+[time= 24] Worker 7 starts Job  29 seller=A  runtime=20 priority=2
+[time= 25] Worker 5 finishes Job  79 (Tiến độ:   7/100)
+[time= 25] Worker 5 starts Job  50 seller=A  runtime=12 priority=5
+[time= 26] Worker 0 finishes Job   1 (Tiến độ:   8/100)
+[time= 26] Worker 0 starts Job  59 seller=D  runtime=16 priority=4
+[time= 26] Worker 6 finishes Job  76 (Tiến độ:   9/100)
+[time= 26] Worker 6 starts Job  47 seller=A  runtime=10 priority=5
+[time= 29] Worker 2 finishes Job  45 (Tiến độ:  10/100)
+[time= 29] Worker 2 starts Job  87 seller=H  runtime= 1 priority=3
+[time= 30] Worker 2 finishes Job  87 (Tiến độ:  11/100)
+[time= 30] Worker 2 starts Job   5 seller=C  runtime=11 priority=2
+[time= 30] Worker 3 finishes Job  52 (Tiến độ:  12/100)
+[time= 30] Worker 3 starts Job  10 seller=C  runtime=13 priority=4
+[time= 34] Worker 1 finishes Job  14 (Tiến độ:  13/100)
+[time= 34] Worker 1 starts Job  92 seller=C  runtime=12 priority=1
+[time= 36] Worker 6 finishes Job  47 (Tiến độ:  14/100)
+[time= 36] Worker 6 starts Job  73 seller=F  runtime= 8 priority=4
+[time= 37] Worker 5 finishes Job  50 (Tiến độ:  15/100)
+[time= 37] Worker 5 starts Job  77 seller=E  runtime=27 priority=3
+[time= 39] Worker 4 finishes Job  85 (Tiến độ:  16/100)
+[time= 39] Worker 4 starts Job  89 seller=D  runtime=30 priority=4
+[time= 41] Worker 2 finishes Job   5 (Tiến độ:  17/100)
+[time= 41] Worker 2 starts Job  68 seller=D  runtime=29 priority=5
+[time= 42] Worker 0 finishes Job  59 (Tiến độ:  18/100)
+[time= 42] Worker 0 starts Job   8 seller=D  runtime=11 priority=5
+[time= 43] Worker 3 finishes Job  10 (Tiến độ:  19/100)
+[time= 43] Worker 3 starts Job  22 seller=H  runtime=10 priority=5
+[time= 44] Worker 7 finishes Job  29 (Tiến độ:  20/100)
+[time= 44] Worker 7 starts Job  33 seller=E  runtime= 8 priority=4
+[time= 44] Worker 6 finishes Job  73 (Tiến độ:  21/100)
+[time= 44] Worker 6 starts Job  42 seller=G  runtime=14 priority=4
+[time= 46] Worker 1 finishes Job  92 (Tiến độ:  22/100)
+[time= 46] Worker 1 starts Job  53 seller=G  runtime=22 priority=5
+[time= 52] Worker 7 finishes Job  33 (Tiến độ:  23/100)
+[time= 52] Worker 7 starts Job  37 seller=A  runtime=16 priority=3
+[time= 53] Worker 3 finishes Job  22 (Tiến độ:  24/100)
+[time= 53] Worker 3 starts Job  19 seller=F  runtime=21 priority=2
+[time= 53] Worker 0 finishes Job   8 (Tiến độ:  25/100)
+[time= 53] Worker 0 starts Job  32 seller=D  runtime=18 priority=3
+[time= 58] Worker 6 finishes Job  42 (Tiến độ:  26/100)
+[time= 58] Worker 6 starts Job  35 seller=H  runtime= 3 priority=1
+[time= 61] Worker 6 finishes Job  35 (Tiến độ:  27/100)
+[time= 61] Worker 6 starts Job  86 seller=D  runtime=18 priority=3
+[time= 64] Worker 5 finishes Job  77 (Tiến độ:  28/100)
+[time= 64] Worker 5 starts Job   3 seller=G  runtime= 4 priority=4
+[time= 68] Worker 1 finishes Job  53 (Tiến độ:  29/100)
+[time= 68] Worker 1 starts Job  40 seller=E  runtime=18 priority=1
+[time= 68] Worker 5 finishes Job   3 (Tiến độ:  30/100)
+[time= 68] Worker 5 starts Job   4 seller=D  runtime=27 priority=1
+[time= 68] Worker 7 finishes Job  37 (Tiến độ:  31/100)
+[time= 68] Worker 7 starts Job  28 seller=E  runtime=21 priority=4
+[time= 69] Worker 4 finishes Job  89 (Tiến độ:  32/100)
+[time= 69] Worker 4 starts Job  74 seller=E  runtime=24 priority=2
+[time= 70] Worker 2 finishes Job  68 (Tiến độ:  33/100)
+[time= 70] Worker 2 starts Job  25 seller=H  runtime=16 priority=5
+[time= 71] Worker 0 finishes Job  32 (Tiến độ:  34/100)
+[time= 71] Worker 0 starts Job  38 seller=C  runtime=24 priority=5
+[time= 74] Worker 3 finishes Job  19 (Tiến độ:  35/100)
+[time= 74] Worker 3 starts Job  75 seller=F  runtime=13 priority=1
+[time= 79] Worker 6 finishes Job  86 (Tiến độ:  36/100)
+[time= 79] Worker 6 starts Job  72 seller=C  runtime= 8 priority=2
+[time= 86] Worker 2 finishes Job  25 (Tiến độ:  37/100)
+[time= 86] Worker 2 starts Job  48 seller=G  runtime=18 priority=4
+[time= 86] Worker 1 finishes Job  40 (Tiến độ:  38/100)
+[time= 86] Worker 1 starts Job  98 seller=A  runtime=18 priority=4
+[time= 87] Worker 3 finishes Job  75 (Tiến độ:  39/100)
+[time= 87] Worker 3 starts Job  51 seller=E  runtime=16 priority=1
+[time= 87] Worker 6 finishes Job  72 (Tiến độ:  40/100)
+[time= 87] Worker 6 starts Job  27 seller=E  runtime=25 priority=2
+[time= 89] Worker 7 finishes Job  28 (Tiến độ:  41/100)
+[time= 89] Worker 7 starts Job  23 seller=A  runtime=21 priority=1
+[time= 93] Worker 4 finishes Job  74 (Tiến độ:  42/100)
+[time= 93] Worker 4 starts Job  96 seller=B  runtime= 2 priority=4
+[time= 95] Worker 0 finishes Job  38 (Tiến độ:  43/100)
+[time= 95] Worker 0 starts Job  41 seller=F  runtime= 6 priority=3
+[time= 95] Worker 4 finishes Job  96 (Tiến độ:  44/100)
+[time= 95] Worker 4 starts Job  49 seller=B  runtime=15 priority=2
+[time= 95] Worker 5 finishes Job   4 (Tiến độ:  45/100)
+[time= 95] Worker 5 starts Job  94 seller=D  runtime=30 priority=5
+[time=101] Worker 0 finishes Job  41 (Tiến độ:  46/100)
+[time=101] Worker 0 starts Job  64 seller=A  runtime= 5 priority=3
+[time=103] Worker 3 finishes Job  51 (Tiến độ:  47/100)
+[time=103] Worker 3 starts Job  70 seller=G  runtime= 2 priority=3
+[time=104] Worker 2 finishes Job  48 (Tiến độ:  48/100)
+[time=104] Worker 2 starts Job  90 seller=A  runtime=29 priority=1
+[time=104] Worker 1 finishes Job  98 (Tiến độ:  49/100)
+[time=104] Worker 1 starts Job  43 seller=G  runtime=16 priority=4
+[time=105] Worker 3 finishes Job  70 (Tiến độ:  50/100)
+[time=105] Worker 3 starts Job  95 seller=C  runtime=25 priority=4
+[time=106] Worker 0 finishes Job  64 (Tiến độ:  51/100)
+[time=106] Worker 0 starts Job  11 seller=A  runtime=28 priority=2
+[time=110] Worker 4 finishes Job  49 (Tiến độ:  52/100)
+[time=110] Worker 4 starts Job  12 seller=A  runtime=17 priority=3
+[time=110] Worker 7 finishes Job  23 (Tiến độ:  53/100)
+[time=110] Worker 7 starts Job  39 seller=F  runtime=18 priority=3
+[time=112] Worker 6 finishes Job  27 (Tiến độ:  54/100)
+[time=112] Worker 6 starts Job  91 seller=F  runtime=18 priority=3
+[time=120] Worker 1 finishes Job  43 (Tiến độ:  55/100)
+[time=120] Worker 1 starts Job  81 seller=H  runtime= 1 priority=2
+[time=121] Worker 1 finishes Job  81 (Tiến độ:  56/100)
+[time=121] Worker 1 starts Job  20 seller=B  runtime=20 priority=1
+[time=125] Worker 5 finishes Job  94 (Tiến độ:  57/100)
+[time=125] Worker 5 starts Job  54 seller=A  runtime=14 priority=1
+[time=127] Worker 4 finishes Job  12 (Tiến độ:  58/100)
+[time=127] Worker 4 starts Job  78 seller=F  runtime=16 priority=1
+[time=128] Worker 7 finishes Job  39 (Tiến độ:  59/100)
+[time=128] Worker 7 starts Job  24 seller=E  runtime=28 priority=2
+[time=130] Worker 3 finishes Job  95 (Tiến độ:  60/100)
+[time=130] Worker 3 starts Job  34 seller=G  runtime=22 priority=2
+[time=130] Worker 6 finishes Job  91 (Tiến độ:  61/100)
+[time=130] Worker 6 starts Job  17 seller=C  runtime=21 priority=2
+[time=133] Worker 2 finishes Job  90 (Tiến độ:  62/100)
+[time=133] Worker 2 starts Job  80 seller=G  runtime=14 priority=5
+[time=134] Worker 0 finishes Job  11 (Tiến độ:  63/100)
+[time=134] Worker 0 starts Job  30 seller=E  runtime= 1 priority=4
+[time=135] Worker 0 finishes Job  30 (Tiến độ:  64/100)
+[time=135] Worker 0 starts Job   6 seller=C  runtime= 2 priority=3
+[time=137] Worker 0 finishes Job   6 (Tiến độ:  65/100)
+[time=137] Worker 0 starts Job   2 seller=D  runtime=30 priority=2
+[time=139] Worker 5 finishes Job  54 (Tiến độ:  66/100)
+[time=139] Worker 5 starts Job  13 seller=F  runtime=22 priority=4
+[time=141] Worker 1 finishes Job  20 (Tiến độ:  67/100)
+[time=141] Worker 1 starts Job  55 seller=C  runtime=26 priority=4
+[time=143] Worker 4 finishes Job  78 (Tiến độ:  68/100)
+[time=143] Worker 4 starts Job  66 seller=F  runtime=28 priority=1
+[time=147] Worker 2 finishes Job  80 (Tiến độ:  69/100)
+[time=147] Worker 2 starts Job  15 seller=A  runtime=12 priority=3
+[time=151] Worker 6 finishes Job  17 (Tiến độ:  70/100)
+[time=151] Worker 6 starts Job  57 seller=E  runtime=30 priority=5
+[time=152] Worker 3 finishes Job  34 (Tiến độ:  71/100)
+[time=152] Worker 3 starts Job  46 seller=D  runtime=19 priority=2
+[time=156] Worker 7 finishes Job  24 (Tiến độ:  72/100)
+[time=156] Worker 7 starts Job  61 seller=D  runtime=12 priority=2
+[time=159] Worker 2 finishes Job  15 (Tiến độ:  73/100)
+[time=159] Worker 2 starts Job  16 seller=H  runtime= 9 priority=3
+[time=161] Worker 5 finishes Job  13 (Tiến độ:  74/100)
+[time=161] Worker 5 starts Job   9 seller=D  runtime=26 priority=3
+[time=167] Worker 1 finishes Job  55 (Tiến độ:  75/100)
+[time=167] Worker 1 starts Job  36 seller=F  runtime=26 priority=2
+[time=167] Worker 0 finishes Job   2 (Tiến độ:  76/100)
+[time=167] Worker 0 starts Job   7 seller=G  runtime=17 priority=3
+[time=168] Worker 2 finishes Job  16 (Tiến độ:  77/100)
+[time=168] Worker 2 starts Job  69 seller=D  runtime=24 priority=5
+[time=168] Worker 7 finishes Job  61 (Tiến độ:  78/100)
+[time=168] Worker 7 starts Job  84 seller=H  runtime=14 priority=3
+[time=171] Worker 3 finishes Job  46 (Tiến độ:  79/100)
+[time=171] Worker 3 starts Job 100 seller=B  runtime= 8 priority=2
+[time=171] Worker 4 finishes Job  66 (Tiến độ:  80/100)
+[time=171] Worker 4 starts Job  44 seller=B  runtime=23 priority=1
+[time=179] Worker 3 finishes Job 100 (Tiến độ:  81/100)
+[time=179] Worker 3 starts Job  63 seller=E  runtime= 9 priority=1
+[time=181] Worker 6 finishes Job  57 (Tiến độ:  82/100)
+[time=181] Worker 6 starts Job  62 seller=F  runtime= 7 priority=5
+[time=182] Worker 7 finishes Job  84 (Tiến độ:  83/100)
+[time=182] Worker 7 starts Job  65 seller=E  runtime=14 priority=1
+[time=184] Worker 0 finishes Job   7 (Tiến độ:  84/100)
+[time=184] Worker 0 starts Job  56 seller=C  runtime=15 priority=5
+[time=187] Worker 5 finishes Job   9 (Tiến độ:  85/100)
+[time=187] Worker 5 starts Job  18 seller=A  runtime=29 priority=5
+[time=188] Worker 3 finishes Job  63 (Tiến độ:  86/100)
+[time=188] Worker 3 starts Job  31 seller=E  runtime=21 priority=1
+[time=188] Worker 6 finishes Job  62 (Tiến độ:  87/100)
+[time=188] Worker 6 starts Job  60 seller=G  runtime=22 priority=1
+[time=192] Worker 2 finishes Job  69 (Tiến độ:  88/100)
+[time=192] Worker 2 starts Job  99 seller=H  runtime= 6 priority=5
+[time=193] Worker 1 finishes Job  36 (Tiến độ:  89/100)
+[time=193] Worker 1 starts Job  83 seller=H  runtime=26 priority=1
+[time=194] Worker 4 finishes Job  44 (Tiến độ:  90/100)
+[time=194] Worker 4 starts Job  26 seller=C  runtime= 5 priority=5
+[time=196] Worker 7 finishes Job  65 (Tiến độ:  91/100)
+[time=196] Worker 7 starts Job  71 seller=F  runtime=19 priority=2
+[time=198] Worker 2 finishes Job  99 (Tiến độ:  92/100)
+[time=198] Worker 2 starts Job  88 seller=E  runtime=26 priority=2
+[time=199] Worker 4 finishes Job  26 (Tiến độ:  93/100)
+[time=199] Worker 0 finishes Job  56 (Tiến độ:  94/100)
+[time=209] Worker 3 finishes Job  31 (Tiến độ:  95/100)
+[time=210] Worker 6 finishes Job  60 (Tiến độ:  96/100)
+[time=215] Worker 7 finishes Job  71 (Tiến độ:  97/100)
+[time=216] Worker 5 finishes Job  18 (Tiến độ:  98/100)
+[time=219] Worker 1 finishes Job  83 (Tiến độ:  99/100)
+[time=224] Worker 2 finishes Job  88 (Tiến độ: 100/100)
+
+========================================
+Policy: FIFO
+Workers: 8
+Total jobs: 100
+Total simulation time: 224
+
+Average waiting time: 43.08
+Average turnaround time: 59.72
+Throughput: 0.446 jobs/unit time
+Worker utilization: 92.86%
+Starvation-risk jobs: 58
+========================================
+
+>>> RUNNING POLICY: SJF <<<
+[time=  0] Worker 0 starts Job  58 seller=D  runtime= 6 priority=1
+[time=  1] Worker 1 starts Job  97 seller=F  runtime=21 priority=2
+[time=  3] Worker 4 starts Job  45 seller=A  runtime=26 priority=4
+[time=  3] Worker 3 starts Job  52 seller=B  runtime=27 priority=4
+[time=  4] Worker 2 starts Job  82 seller=A  runtime=11 priority=1
+[time=  4] Worker 5 starts Job  21 seller=G  runtime=14 priority=2
+[time=  4] Worker 6 starts Job  93 seller=C  runtime=20 priority=5
+[time=  4] Worker 7 starts Job  79 seller=D  runtime=21 priority=2
+[time=  6] Worker 0 finishes Job  58 (Tiến độ:   1/100)
+[time= 10] Worker 0 starts Job  76 seller=E  runtime=11 priority=4
+[time= 15] Worker 2 finishes Job  82 (Tiến độ:   2/100)
+[time= 15] Worker 2 starts Job  67 seller=F  runtime= 6 priority=2
+[time= 18] Worker 5 finishes Job  21 (Tiến độ:   3/100)
+[time= 18] Worker 5 starts Job  14 seller=A  runtime=12 priority=3
+[time= 21] Worker 0 finishes Job  76 (Tiến độ:   4/100)
+[time= 21] Worker 0 starts Job  87 seller=H  runtime= 1 priority=3
+[time= 21] Worker 2 finishes Job  67 (Tiến độ:   5/100)
+[time= 21] Worker 2 starts Job  73 seller=F  runtime= 8 priority=4
+[time= 22] Worker 1 finishes Job  97 (Tiến độ:   6/100)
+[time= 22] Worker 1 starts Job  47 seller=A  runtime=10 priority=5
+[time= 22] Worker 0 finishes Job  87 (Tiến độ:   7/100)
+[time= 22] Worker 0 starts Job   5 seller=C  runtime=11 priority=2
+[time= 24] Worker 6 finishes Job  93 (Tiến độ:   8/100)
+[time= 24] Worker 6 starts Job  50 seller=A  runtime=12 priority=5
+[time= 25] Worker 7 finishes Job  79 (Tiến độ:   9/100)
+[time= 25] Worker 7 starts Job   8 seller=D  runtime=11 priority=5
+[time= 29] Worker 4 finishes Job  45 (Tiến độ:  10/100)
+[time= 29] Worker 4 starts Job  33 seller=E  runtime= 8 priority=4
+[time= 29] Worker 2 finishes Job  73 (Tiến độ:  11/100)
+[time= 29] Worker 2 starts Job  22 seller=H  runtime=10 priority=5
+[time= 30] Worker 3 finishes Job  52 (Tiến độ:  12/100)
+[time= 30] Worker 3 starts Job  92 seller=C  runtime=12 priority=1
+[time= 30] Worker 5 finishes Job  14 (Tiến độ:  13/100)
+[time= 30] Worker 5 starts Job  10 seller=C  runtime=13 priority=4
+[time= 32] Worker 1 finishes Job  47 (Tiến độ:  14/100)
+[time= 32] Worker 1 starts Job  35 seller=H  runtime= 3 priority=1
+[time= 33] Worker 0 finishes Job   5 (Tiến độ:  15/100)
+[time= 33] Worker 0 starts Job   3 seller=G  runtime= 4 priority=4
+[time= 35] Worker 1 finishes Job  35 (Tiến độ:  16/100)
+[time= 35] Worker 1 starts Job  42 seller=G  runtime=14 priority=4
+[time= 36] Worker 6 finishes Job  50 (Tiến độ:  17/100)
+[time= 36] Worker 6 starts Job  85 seller=B  runtime=15 priority=2
+[time= 36] Worker 7 finishes Job   8 (Tiến độ:  18/100)
+[time= 36] Worker 7 starts Job   1 seller=E  runtime=16 priority=4
+[time= 37] Worker 4 finishes Job  33 (Tiến độ:  19/100)
+[time= 37] Worker 4 starts Job  59 seller=D  runtime=16 priority=4
+[time= 37] Worker 0 finishes Job   3 (Tiến độ:  20/100)
+[time= 37] Worker 0 starts Job  37 seller=A  runtime=16 priority=3
+[time= 39] Worker 2 finishes Job  22 (Tiến độ:  21/100)
+[time= 39] Worker 2 starts Job  25 seller=H  runtime=16 priority=5
+[time= 42] Worker 3 finishes Job  92 (Tiến độ:  22/100)
+[time= 42] Worker 3 starts Job  32 seller=D  runtime=18 priority=3
+[time= 43] Worker 5 finishes Job  10 (Tiến độ:  23/100)
+[time= 43] Worker 5 starts Job  75 seller=F  runtime=13 priority=1
+[time= 49] Worker 1 finishes Job  42 (Tiến độ:  24/100)
+[time= 49] Worker 1 starts Job  72 seller=C  runtime= 8 priority=2
+[time= 51] Worker 6 finishes Job  85 (Tiến độ:  25/100)
+[time= 51] Worker 6 starts Job  51 seller=E  runtime=16 priority=1
+[time= 52] Worker 7 finishes Job   1 (Tiến độ:  26/100)
+[time= 52] Worker 7 starts Job  86 seller=D  runtime=18 priority=3
+[time= 53] Worker 4 finishes Job  59 (Tiến độ:  27/100)
+[time= 53] Worker 4 starts Job  96 seller=B  runtime= 2 priority=4
+[time= 53] Worker 0 finishes Job  37 (Tiến độ:  28/100)
+[time= 53] Worker 0 starts Job  40 seller=E  runtime=18 priority=1
+[time= 55] Worker 4 finishes Job  96 (Tiến độ:  29/100)
+[time= 55] Worker 4 starts Job  48 seller=G  runtime=18 priority=4
+[time= 55] Worker 2 finishes Job  25 (Tiến độ:  30/100)
+[time= 55] Worker 2 starts Job  98 seller=A  runtime=18 priority=4
+[time= 56] Worker 5 finishes Job  75 (Tiến độ:  31/100)
+[time= 56] Worker 5 starts Job  41 seller=F  runtime= 6 priority=3
+[time= 57] Worker 1 finishes Job  72 (Tiến độ:  32/100)
+[time= 57] Worker 1 starts Job  49 seller=B  runtime=15 priority=2
+[time= 60] Worker 3 finishes Job  32 (Tiến độ:  33/100)
+[time= 60] Worker 3 starts Job  70 seller=G  runtime= 2 priority=3
+[time= 62] Worker 5 finishes Job  41 (Tiến độ:  34/100)
+[time= 62] Worker 5 starts Job  64 seller=A  runtime= 5 priority=3
+[time= 62] Worker 3 finishes Job  70 (Tiến độ:  35/100)
+[time= 62] Worker 3 starts Job  43 seller=G  runtime=16 priority=4
+[time= 67] Worker 6 finishes Job  51 (Tiến độ:  36/100)
+[time= 67] Worker 6 starts Job  81 seller=H  runtime= 1 priority=2
+[time= 67] Worker 5 finishes Job  64 (Tiến độ:  37/100)
+[time= 67] Worker 5 starts Job  12 seller=A  runtime=17 priority=3
+[time= 68] Worker 6 finishes Job  81 (Tiến độ:  38/100)
+[time= 68] Worker 6 starts Job  39 seller=F  runtime=18 priority=3
+[time= 70] Worker 7 finishes Job  86 (Tiến độ:  39/100)
+[time= 70] Worker 7 starts Job  54 seller=A  runtime=14 priority=1
+[time= 71] Worker 0 finishes Job  40 (Tiến độ:  40/100)
+[time= 71] Worker 0 starts Job  78 seller=F  runtime=16 priority=1
+[time= 72] Worker 1 finishes Job  49 (Tiến độ:  41/100)
+[time= 72] Worker 1 starts Job  91 seller=F  runtime=18 priority=3
+[time= 73] Worker 4 finishes Job  48 (Tiến độ:  42/100)
+[time= 73] Worker 4 starts Job  80 seller=G  runtime=14 priority=5
+[time= 73] Worker 2 finishes Job  98 (Tiến độ:  43/100)
+[time= 73] Worker 2 starts Job  29 seller=A  runtime=20 priority=2
+[time= 78] Worker 3 finishes Job  43 (Tiến độ:  44/100)
+[time= 78] Worker 3 starts Job  30 seller=E  runtime= 1 priority=4
+[time= 79] Worker 3 finishes Job  30 (Tiến độ:  45/100)
+[time= 79] Worker 3 starts Job   6 seller=C  runtime= 2 priority=3
+[time= 81] Worker 3 finishes Job   6 (Tiến độ:  46/100)
+[time= 81] Worker 3 starts Job  16 seller=H  runtime= 9 priority=3
+[time= 84] Worker 5 finishes Job  12 (Tiến độ:  47/100)
+[time= 84] Worker 5 starts Job  15 seller=A  runtime=12 priority=3
+[time= 84] Worker 7 finishes Job  54 (Tiến độ:  48/100)
+[time= 84] Worker 7 starts Job  61 seller=D  runtime=12 priority=2
+[time= 86] Worker 6 finishes Job  39 (Tiến độ:  49/100)
+[time= 86] Worker 6 starts Job 100 seller=B  runtime= 8 priority=2
+[time= 87] Worker 4 finishes Job  80 (Tiến độ:  50/100)
+[time= 87] Worker 4 starts Job  63 seller=E  runtime= 9 priority=1
+[time= 87] Worker 0 finishes Job  78 (Tiến độ:  51/100)
+[time= 87] Worker 0 starts Job  84 seller=H  runtime=14 priority=3
+[time= 90] Worker 1 finishes Job  91 (Tiến độ:  52/100)
+[time= 90] Worker 1 starts Job  62 seller=F  runtime= 7 priority=5
+[time= 90] Worker 3 finishes Job  16 (Tiến độ:  53/100)
+[time= 90] Worker 3 starts Job  65 seller=E  runtime=14 priority=1
+[time= 93] Worker 2 finishes Job  29 (Tiến độ:  54/100)
+[time= 93] Worker 2 starts Job  56 seller=C  runtime=15 priority=5
+[time= 94] Worker 6 finishes Job 100 (Tiến độ:  55/100)
+[time= 94] Worker 6 starts Job   7 seller=G  runtime=17 priority=3
+[time= 96] Worker 4 finishes Job  63 (Tiến độ:  56/100)
+[time= 96] Worker 4 starts Job  46 seller=D  runtime=19 priority=2
+[time= 96] Worker 5 finishes Job  15 (Tiến độ:  57/100)
+[time= 96] Worker 5 starts Job  20 seller=B  runtime=20 priority=1
+[time= 96] Worker 7 finishes Job  61 (Tiến độ:  58/100)
+[time= 96] Worker 7 starts Job  19 seller=F  runtime=21 priority=2
+[time= 97] Worker 1 finishes Job  62 (Tiến độ:  59/100)
+[time= 97] Worker 1 starts Job  28 seller=E  runtime=21 priority=4
+[time=101] Worker 0 finishes Job  84 (Tiến độ:  60/100)
+[time=101] Worker 0 starts Job  26 seller=C  runtime= 5 priority=5
+[time=104] Worker 3 finishes Job  65 (Tiến độ:  61/100)
+[time=104] Worker 3 starts Job  99 seller=H  runtime= 6 priority=5
+[time=106] Worker 0 finishes Job  26 (Tiến độ:  62/100)
+[time=106] Worker 0 starts Job  71 seller=F  runtime=19 priority=2
+[time=108] Worker 2 finishes Job  56 (Tiến độ:  63/100)
+[time=108] Worker 2 starts Job  23 seller=A  runtime=21 priority=1
+[time=110] Worker 3 finishes Job  99 (Tiến độ:  64/100)
+[time=110] Worker 3 starts Job  17 seller=C  runtime=21 priority=2
+[time=111] Worker 6 finishes Job   7 (Tiến độ:  65/100)
+[time=111] Worker 6 starts Job  31 seller=E  runtime=21 priority=1
+[time=115] Worker 4 finishes Job  46 (Tiến độ:  66/100)
+[time=115] Worker 4 starts Job  53 seller=G  runtime=22 priority=5
+[time=116] Worker 5 finishes Job  20 (Tiến độ:  67/100)
+[time=116] Worker 5 starts Job  34 seller=G  runtime=22 priority=2
+[time=117] Worker 7 finishes Job  19 (Tiến độ:  68/100)
+[time=117] Worker 7 starts Job  13 seller=F  runtime=22 priority=4
+[time=118] Worker 1 finishes Job  28 (Tiến độ:  69/100)
+[time=118] Worker 1 starts Job  60 seller=G  runtime=22 priority=1
+[time=125] Worker 0 finishes Job  71 (Tiến độ:  70/100)
+[time=125] Worker 0 starts Job  44 seller=B  runtime=23 priority=1
+[time=129] Worker 2 finishes Job  23 (Tiến độ:  71/100)
+[time=129] Worker 2 starts Job  74 seller=E  runtime=24 priority=2
+[time=131] Worker 3 finishes Job  17 (Tiến độ:  72/100)
+[time=131] Worker 3 starts Job  38 seller=C  runtime=24 priority=5
+[time=132] Worker 6 finishes Job  31 (Tiến độ:  73/100)
+[time=132] Worker 6 starts Job  69 seller=D  runtime=24 priority=5
+[time=137] Worker 4 finishes Job  53 (Tiến độ:  74/100)
+[time=137] Worker 4 starts Job  27 seller=E  runtime=25 priority=2
+[time=138] Worker 5 finishes Job  34 (Tiến độ:  75/100)
+[time=138] Worker 5 starts Job  95 seller=C  runtime=25 priority=4
+[time=139] Worker 7 finishes Job  13 (Tiến độ:  76/100)
+[time=139] Worker 7 starts Job  55 seller=C  runtime=26 priority=4
+[time=140] Worker 1 finishes Job  60 (Tiến độ:  77/100)
+[time=140] Worker 1 starts Job   9 seller=D  runtime=26 priority=3
+[time=148] Worker 0 finishes Job  44 (Tiến độ:  78/100)
+[time=148] Worker 0 starts Job  36 seller=F  runtime=26 priority=2
+[time=153] Worker 2 finishes Job  74 (Tiến độ:  79/100)
+[time=153] Worker 2 starts Job  83 seller=H  runtime=26 priority=1
+[time=155] Worker 3 finishes Job  38 (Tiến độ:  80/100)
+[time=155] Worker 3 starts Job  88 seller=E  runtime=26 priority=2
+[time=156] Worker 6 finishes Job  69 (Tiến độ:  81/100)
+[time=156] Worker 6 starts Job  77 seller=E  runtime=27 priority=3
+[time=162] Worker 4 finishes Job  27 (Tiến độ:  82/100)
+[time=162] Worker 4 starts Job   4 seller=D  runtime=27 priority=1
+[time=163] Worker 5 finishes Job  95 (Tiến độ:  83/100)
+[time=163] Worker 5 starts Job  11 seller=A  runtime=28 priority=2
+[time=165] Worker 7 finishes Job  55 (Tiến độ:  84/100)
+[time=165] Worker 7 starts Job  24 seller=E  runtime=28 priority=2
+[time=166] Worker 1 finishes Job   9 (Tiến độ:  85/100)
+[time=166] Worker 1 starts Job  66 seller=F  runtime=28 priority=1
+[time=174] Worker 0 finishes Job  36 (Tiến độ:  86/100)
+[time=174] Worker 0 starts Job  68 seller=D  runtime=29 priority=5
+[time=179] Worker 2 finishes Job  83 (Tiến độ:  87/100)
+[time=179] Worker 2 starts Job  90 seller=A  runtime=29 priority=1
+[time=181] Worker 3 finishes Job  88 (Tiến độ:  88/100)
+[time=181] Worker 3 starts Job  18 seller=A  runtime=29 priority=5
+[time=183] Worker 6 finishes Job  77 (Tiến độ:  89/100)
+[time=183] Worker 6 starts Job  89 seller=D  runtime=30 priority=4
+[time=189] Worker 4 finishes Job   4 (Tiến độ:  90/100)
+[time=189] Worker 4 starts Job  94 seller=D  runtime=30 priority=5
+[time=191] Worker 5 finishes Job  11 (Tiến độ:  91/100)
+[time=191] Worker 5 starts Job   2 seller=D  runtime=30 priority=2
+[time=193] Worker 7 finishes Job  24 (Tiến độ:  92/100)
+[time=193] Worker 7 starts Job  57 seller=E  runtime=30 priority=5
+[time=194] Worker 1 finishes Job  66 (Tiến độ:  93/100)
+[time=203] Worker 0 finishes Job  68 (Tiến độ:  94/100)
+[time=208] Worker 2 finishes Job  90 (Tiến độ:  95/100)
+[time=210] Worker 3 finishes Job  18 (Tiến độ:  96/100)
+[time=213] Worker 6 finishes Job  89 (Tiến độ:  97/100)
+[time=219] Worker 4 finishes Job  94 (Tiến độ:  98/100)
+[time=221] Worker 5 finishes Job   2 (Tiến độ:  99/100)
+[time=223] Worker 7 finishes Job  57 (Tiến độ: 100/100)
+
+========================================
+Policy: SJF
+Workers: 8
+Total jobs: 100
+Total simulation time: 223
+
+Average waiting time: 29.49
+Average turnaround time: 46.13
+Throughput: 0.448 jobs/unit time
+Worker utilization: 93.27%
+Starvation-risk jobs: 31
+========================================
+
+>>> RUNNING POLICY: PRIORITY <<<
+[time=  0] Worker 0 starts Job  58 seller=D  runtime= 6 priority=1
+[time=  1] Worker 1 starts Job  97 seller=F  runtime=21 priority=2
+[time=  3] Worker 2 starts Job  45 seller=A  runtime=26 priority=4
+[time=  3] Worker 3 starts Job  52 seller=B  runtime=27 priority=4
+[time=  4] Worker 5 starts Job  93 seller=C  runtime=20 priority=5
+[time=  4] Worker 7 starts Job  21 seller=G  runtime=14 priority=2
+[time=  4] Worker 6 starts Job  79 seller=D  runtime=21 priority=2
+[time=  4] Worker 4 starts Job  82 seller=A  runtime=11 priority=1
+[time=  6] Worker 0 finishes Job  58 (Tiến độ:   1/100)
+[time= 10] Worker 0 starts Job   1 seller=E  runtime=16 priority=4
+[time= 15] Worker 4 finishes Job  82 (Tiến độ:   2/100)
+[time= 15] Worker 4 starts Job  76 seller=E  runtime=11 priority=4
+[time= 18] Worker 7 finishes Job  21 (Tiến độ:   3/100)
+[time= 18] Worker 7 starts Job  50 seller=A  runtime=12 priority=5
+[time= 22] Worker 1 finishes Job  97 (Tiến độ:   4/100)
+[time= 22] Worker 1 starts Job  47 seller=A  runtime=10 priority=5
+[time= 24] Worker 5 finishes Job  93 (Tiến độ:   5/100)
+[time= 24] Worker 5 starts Job  68 seller=D  runtime=29 priority=5
+[time= 25] Worker 6 finishes Job  79 (Tiến độ:   6/100)
+[time= 25] Worker 6 starts Job   8 seller=D  runtime=11 priority=5
+[time= 26] Worker 0 finishes Job   1 (Tiến độ:   7/100)
+[time= 26] Worker 0 starts Job  22 seller=H  runtime=10 priority=5
+[time= 26] Worker 4 finishes Job  76 (Tiến độ:   8/100)
+[time= 26] Worker 4 starts Job  53 seller=G  runtime=22 priority=5
+[time= 29] Worker 2 finishes Job  45 (Tiến độ:   9/100)
+[time= 29] Worker 2 starts Job  59 seller=D  runtime=16 priority=4
+[time= 30] Worker 3 finishes Job  52 (Tiến độ:  10/100)
+[time= 30] Worker 3 starts Job  10 seller=C  runtime=13 priority=4
+[time= 30] Worker 7 finishes Job  50 (Tiến độ:  11/100)
+[time= 30] Worker 7 starts Job  73 seller=F  runtime= 8 priority=4
+[time= 32] Worker 1 finishes Job  47 (Tiến độ:  12/100)
+[time= 32] Worker 1 starts Job  89 seller=D  runtime=30 priority=4
+[time= 36] Worker 6 finishes Job   8 (Tiến độ:  13/100)
+[time= 36] Worker 6 starts Job  33 seller=E  runtime= 8 priority=4
+[time= 36] Worker 0 finishes Job  22 (Tiến độ:  14/100)
+[time= 36] Worker 0 starts Job  42 seller=G  runtime=14 priority=4
+[time= 38] Worker 7 finishes Job  73 (Tiến độ:  15/100)
+[time= 38] Worker 7 starts Job  25 seller=H  runtime=16 priority=5
+[time= 43] Worker 3 finishes Job  10 (Tiến độ:  16/100)
+[time= 43] Worker 3 starts Job  38 seller=C  runtime=24 priority=5
+[time= 44] Worker 6 finishes Job  33 (Tiến độ:  17/100)
+[time= 44] Worker 6 starts Job   3 seller=G  runtime= 4 priority=4
+[time= 45] Worker 2 finishes Job  59 (Tiến độ:  18/100)
+[time= 45] Worker 2 starts Job  28 seller=E  runtime=21 priority=4
+[time= 48] Worker 6 finishes Job   3 (Tiến độ:  19/100)
+[time= 48] Worker 6 starts Job  48 seller=G  runtime=18 priority=4
+[time= 48] Worker 4 finishes Job  53 (Tiến độ:  20/100)
+[time= 48] Worker 4 starts Job  98 seller=A  runtime=18 priority=4
+[time= 50] Worker 0 finishes Job  42 (Tiến độ:  21/100)
+[time= 50] Worker 0 starts Job  14 seller=A  runtime=12 priority=3
+[time= 53] Worker 5 finishes Job  68 (Tiến độ:  22/100)
+[time= 53] Worker 5 starts Job  96 seller=B  runtime= 2 priority=4
+[time= 54] Worker 7 finishes Job  25 (Tiến độ:  23/100)
+[time= 54] Worker 7 starts Job  87 seller=H  runtime= 1 priority=3
+[time= 55] Worker 5 finishes Job  96 (Tiến độ:  24/100)
+[time= 55] Worker 5 starts Job  77 seller=E  runtime=27 priority=3
+[time= 55] Worker 7 finishes Job  87 (Tiến độ:  25/100)
+[time= 55] Worker 7 starts Job  37 seller=A  runtime=16 priority=3
+[time= 62] Worker 1 finishes Job  89 (Tiến độ:  26/100)
+[time= 62] Worker 1 starts Job  94 seller=D  runtime=30 priority=5
+[time= 62] Worker 0 finishes Job  14 (Tiến độ:  27/100)
+[time= 62] Worker 0 starts Job  43 seller=G  runtime=16 priority=4
+[time= 66] Worker 2 finishes Job  28 (Tiến độ:  28/100)
+[time= 66] Worker 2 starts Job  95 seller=C  runtime=25 priority=4
+[time= 66] Worker 6 finishes Job  48 (Tiến độ:  29/100)
+[time= 66] Worker 6 starts Job  32 seller=D  runtime=18 priority=3
+[time= 66] Worker 4 finishes Job  98 (Tiến độ:  30/100)
+[time= 66] Worker 4 starts Job  86 seller=D  runtime=18 priority=3
+[time= 67] Worker 3 finishes Job  38 (Tiến độ:  31/100)
+[time= 67] Worker 3 starts Job  41 seller=F  runtime= 6 priority=3
+[time= 71] Worker 7 finishes Job  37 (Tiến độ:  32/100)
+[time= 71] Worker 7 starts Job  64 seller=A  runtime= 5 priority=3
+[time= 73] Worker 3 finishes Job  41 (Tiến độ:  33/100)
+[time= 73] Worker 3 starts Job  80 seller=G  runtime=14 priority=5
+[time= 76] Worker 7 finishes Job  64 (Tiến độ:  34/100)
+[time= 76] Worker 7 starts Job  30 seller=E  runtime= 1 priority=4
+[time= 77] Worker 7 finishes Job  30 (Tiến độ:  35/100)
+[time= 77] Worker 7 starts Job  13 seller=F  runtime=22 priority=4
+[time= 78] Worker 0 finishes Job  43 (Tiến độ:  36/100)
+[time= 78] Worker 0 starts Job  55 seller=C  runtime=26 priority=4
+[time= 82] Worker 5 finishes Job  77 (Tiến độ:  37/100)
+[time= 82] Worker 5 starts Job  57 seller=E  runtime=30 priority=5
+[time= 84] Worker 6 finishes Job  32 (Tiến độ:  38/100)
+[time= 84] Worker 6 starts Job  69 seller=D  runtime=24 priority=5
+[time= 84] Worker 4 finishes Job  86 (Tiến độ:  39/100)
+[time= 84] Worker 4 starts Job  70 seller=G  runtime= 2 priority=3
+[time= 86] Worker 4 finishes Job  70 (Tiến độ:  40/100)
+[time= 86] Worker 4 starts Job  12 seller=A  runtime=17 priority=3
+[time= 87] Worker 3 finishes Job  80 (Tiến độ:  41/100)
+[time= 87] Worker 3 starts Job  39 seller=F  runtime=18 priority=3
+[time= 91] Worker 2 finishes Job  95 (Tiến độ:  42/100)
+[time= 91] Worker 2 starts Job  62 seller=F  runtime= 7 priority=5
+[time= 92] Worker 1 finishes Job  94 (Tiến độ:  43/100)
+[time= 92] Worker 1 starts Job  91 seller=F  runtime=18 priority=3
+[time= 98] Worker 2 finishes Job  62 (Tiến độ:  44/100)
+[time= 98] Worker 2 starts Job  56 seller=C  runtime=15 priority=5
+[time= 99] Worker 7 finishes Job  13 (Tiến độ:  45/100)
+[time= 99] Worker 7 starts Job  18 seller=A  runtime=29 priority=5
+[time=103] Worker 4 finishes Job  12 (Tiến độ:  46/100)
+[time=103] Worker 4 starts Job  99 seller=H  runtime= 6 priority=5
+[time=104] Worker 0 finishes Job  55 (Tiến độ:  47/100)
+[time=104] Worker 0 starts Job  26 seller=C  runtime= 5 priority=5
+[time=105] Worker 3 finishes Job  39 (Tiến độ:  48/100)
+[time=105] Worker 3 starts Job   6 seller=C  runtime= 2 priority=3
+[time=107] Worker 3 finishes Job   6 (Tiến độ:  49/100)
+[time=107] Worker 3 starts Job  15 seller=A  runtime=12 priority=3
+[time=108] Worker 6 finishes Job  69 (Tiến độ:  50/100)
+[time=108] Worker 6 starts Job  16 seller=H  runtime= 9 priority=3
+[time=109] Worker 4 finishes Job  99 (Tiến độ:  51/100)
+[time=109] Worker 4 starts Job   9 seller=D  runtime=26 priority=3
+[time=109] Worker 0 finishes Job  26 (Tiến độ:  52/100)
+[time=109] Worker 0 starts Job   7 seller=G  runtime=17 priority=3
+[time=110] Worker 1 finishes Job  91 (Tiến độ:  53/100)
+[time=110] Worker 1 starts Job  84 seller=H  runtime=14 priority=3
+[time=112] Worker 5 finishes Job  57 (Tiến độ:  54/100)
+[time=112] Worker 5 starts Job  67 seller=F  runtime= 6 priority=2
+[time=113] Worker 2 finishes Job  56 (Tiến độ:  55/100)
+[time=113] Worker 2 starts Job  85 seller=B  runtime=15 priority=2
+[time=117] Worker 6 finishes Job  16 (Tiến độ:  56/100)
+[time=117] Worker 6 starts Job  29 seller=A  runtime=20 priority=2
+[time=118] Worker 5 finishes Job  67 (Tiến độ:  57/100)
+[time=118] Worker 5 starts Job   5 seller=C  runtime=11 priority=2
+[time=119] Worker 3 finishes Job  15 (Tiến độ:  58/100)
+[time=119] Worker 3 starts Job  19 seller=F  runtime=21 priority=2
+[time=124] Worker 1 finishes Job  84 (Tiến độ:  59/100)
+[time=124] Worker 1 starts Job  74 seller=E  runtime=24 priority=2
+[time=126] Worker 0 finishes Job   7 (Tiến độ:  60/100)
+[time=126] Worker 0 starts Job  72 seller=C  runtime= 8 priority=2
+[time=128] Worker 2 finishes Job  85 (Tiến độ:  61/100)
+[time=128] Worker 2 starts Job  27 seller=E  runtime=25 priority=2
+[time=128] Worker 7 finishes Job  18 (Tiến độ:  62/100)
+[time=128] Worker 7 starts Job  49 seller=B  runtime=15 priority=2
+[time=129] Worker 5 finishes Job   5 (Tiến độ:  63/100)
+[time=129] Worker 5 starts Job  11 seller=A  runtime=28 priority=2
+[time=134] Worker 0 finishes Job  72 (Tiến độ:  64/100)
+[time=134] Worker 0 starts Job  81 seller=H  runtime= 1 priority=2
+[time=135] Worker 0 finishes Job  81 (Tiến độ:  65/100)
+[time=135] Worker 0 starts Job  24 seller=E  runtime=28 priority=2
+[time=135] Worker 4 finishes Job   9 (Tiến độ:  66/100)
+[time=135] Worker 4 starts Job  34 seller=G  runtime=22 priority=2
+[time=137] Worker 6 finishes Job  29 (Tiến độ:  67/100)
+[time=137] Worker 6 starts Job  17 seller=C  runtime=21 priority=2
+[time=140] Worker 3 finishes Job  19 (Tiến độ:  68/100)
+[time=140] Worker 3 starts Job   2 seller=D  runtime=30 priority=2
+[time=143] Worker 7 finishes Job  49 (Tiến độ:  69/100)
+[time=143] Worker 7 starts Job  46 seller=D  runtime=19 priority=2
+[time=148] Worker 1 finishes Job  74 (Tiến độ:  70/100)
+[time=148] Worker 1 starts Job  61 seller=D  runtime=12 priority=2
+[time=153] Worker 2 finishes Job  27 (Tiến độ:  71/100)
+[time=153] Worker 2 starts Job  36 seller=F  runtime=26 priority=2
+[time=157] Worker 5 finishes Job  11 (Tiến độ:  72/100)
+[time=157] Worker 5 starts Job 100 seller=B  runtime= 8 priority=2
+[time=157] Worker 4 finishes Job  34 (Tiến độ:  73/100)
+[time=157] Worker 4 starts Job  71 seller=F  runtime=19 priority=2
+[time=158] Worker 6 finishes Job  17 (Tiến độ:  74/100)
+[time=158] Worker 6 starts Job  88 seller=E  runtime=26 priority=2
+[time=160] Worker 1 finishes Job  61 (Tiến độ:  75/100)
+[time=160] Worker 1 starts Job  92 seller=C  runtime=12 priority=1
+[time=162] Worker 7 finishes Job  46 (Tiến độ:  76/100)
+[time=162] Worker 7 starts Job  35 seller=H  runtime= 3 priority=1
+[time=163] Worker 0 finishes Job  24 (Tiến độ:  77/100)
+[time=163] Worker 0 starts Job  40 seller=E  runtime=18 priority=1
+[time=165] Worker 5 finishes Job 100 (Tiến độ:  78/100)
+[time=165] Worker 5 starts Job   4 seller=D  runtime=27 priority=1
+[time=165] Worker 7 finishes Job  35 (Tiến độ:  79/100)
+[time=165] Worker 7 starts Job  75 seller=F  runtime=13 priority=1
+[time=170] Worker 3 finishes Job   2 (Tiến độ:  80/100)
+[time=170] Worker 3 starts Job  51 seller=E  runtime=16 priority=1
+[time=172] Worker 1 finishes Job  92 (Tiến độ:  81/100)
+[time=172] Worker 1 starts Job  23 seller=A  runtime=21 priority=1
+[time=176] Worker 4 finishes Job  71 (Tiến độ:  82/100)
+[time=176] Worker 4 starts Job  90 seller=A  runtime=29 priority=1
+[time=178] Worker 7 finishes Job  75 (Tiến độ:  83/100)
+[time=178] Worker 7 starts Job  20 seller=B  runtime=20 priority=1
+[time=179] Worker 2 finishes Job  36 (Tiến độ:  84/100)
+[time=179] Worker 2 starts Job  54 seller=A  runtime=14 priority=1
+[time=181] Worker 0 finishes Job  40 (Tiến độ:  85/100)
+[time=181] Worker 0 starts Job  78 seller=F  runtime=16 priority=1
+[time=184] Worker 6 finishes Job  88 (Tiến độ:  86/100)
+[time=184] Worker 6 starts Job  66 seller=F  runtime=28 priority=1
+[time=186] Worker 3 finishes Job  51 (Tiến độ:  87/100)
+[time=186] Worker 3 starts Job  44 seller=B  runtime=23 priority=1
+[time=192] Worker 5 finishes Job   4 (Tiến độ:  88/100)
+[time=192] Worker 5 starts Job  63 seller=E  runtime= 9 priority=1
+[time=193] Worker 1 finishes Job  23 (Tiến độ:  89/100)
+[time=193] Worker 1 starts Job  65 seller=E  runtime=14 priority=1
+[time=193] Worker 2 finishes Job  54 (Tiến độ:  90/100)
+[time=193] Worker 2 starts Job  31 seller=E  runtime=21 priority=1
+[time=197] Worker 0 finishes Job  78 (Tiến độ:  91/100)
+[time=197] Worker 0 starts Job  60 seller=G  runtime=22 priority=1
+[time=198] Worker 7 finishes Job  20 (Tiến độ:  92/100)
+[time=198] Worker 7 starts Job  83 seller=H  runtime=26 priority=1
+[time=201] Worker 5 finishes Job  63 (Tiến độ:  93/100)
+[time=205] Worker 4 finishes Job  90 (Tiến độ:  94/100)
+[time=207] Worker 1 finishes Job  65 (Tiến độ:  95/100)
+[time=209] Worker 3 finishes Job  44 (Tiến độ:  96/100)
+[time=212] Worker 6 finishes Job  66 (Tiến độ:  97/100)
+[time=214] Worker 2 finishes Job  31 (Tiến độ:  98/100)
+[time=219] Worker 0 finishes Job  60 (Tiến độ:  99/100)
+[time=224] Worker 7 finishes Job  83 (Tiến độ: 100/100)
+
+========================================
+Policy: Priority
+Workers: 8
+Total jobs: 100
+Total simulation time: 224
+
+Average waiting time: 42.43
+Average turnaround time: 59.07
+Throughput: 0.446 jobs/unit time
+Worker utilization: 92.86%
+Starvation-risk jobs: 44
+========================================
+
