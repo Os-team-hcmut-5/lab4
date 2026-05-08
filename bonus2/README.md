@@ -1,8 +1,8 @@
-BÁO CÁO SO SÁNH HIỆU NĂNG GIỮA CHÍNH SÁCH LẬP LỊCH MLQ VÀ FIFO
+MULTI-LEVEL QUEUE
 
 ==================================================================
 
-1. MÃ NGUỒN (CODE)
+1. Triển khai
 ------------------
 
 Để triển khai chính sách Lập lịch Hàng đợi Đa cấp (Multi-Level Queue - MLQ), những thay đổi chính đã được thực hiện trong tệp `multi-level_queue.c`.
@@ -14,7 +14,7 @@ b. Cập nhật hàm `scheduler_get_next_job(policy_t policy)`
 
 ==================================================================
 
-2. CƠ CHẾ HOẠT ĐỘNG (MECHANISM)
+2. CƠ CHẾ HOẠT ĐỘNG
 -----------------------------
 
 Chính sách MLQ được triển khai chia các công việc đang chờ thành 3 hàng đợi ảo với các mức ưu tiên khác nhau. Bộ lập lịch luôn ưu tiên chọn công việc từ hàng đợi cao nhất. Chỉ khi hàng đợi cao hơn trống, nó mới xét đến hàng đợi thấp hơn.
@@ -33,7 +33,7 @@ c. Hàng đợi 3: Ưu tiên thấp (Lowest Priority)
 
 ==================================================================
 
-3. KẾT QUẢ VÀ PHÂN TÍCH (RESULT & ANALYSIS)
+3. KẾT QUẢ VÀ PHÂN TÍCH
 -----------------------------------------
 
 Sau khi chay thu tren file workload_mlq_vs_fifo, chúng ta có thể thấy sự vượt trội rõ rệt của chính sách MLQ so với FIFO trên cùng một workload.
